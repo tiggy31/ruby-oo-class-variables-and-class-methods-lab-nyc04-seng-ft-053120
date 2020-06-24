@@ -31,7 +31,7 @@ def self.genres
 end
 
   def self.genre_count
-    @@genres[count]
+    @@genres[@@count]
   end
   
 end
