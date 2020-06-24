@@ -39,6 +39,7 @@ end
       else
          genre_count[genre] =1
     end
-    
-  
+  end
+  return 
+  genre_count
 end
