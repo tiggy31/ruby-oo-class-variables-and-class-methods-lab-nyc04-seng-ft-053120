@@ -56,6 +56,7 @@ def self.artist_count
       end
     end
     binding.pry
+    puts "hello"
      artist_count
   end
 end
