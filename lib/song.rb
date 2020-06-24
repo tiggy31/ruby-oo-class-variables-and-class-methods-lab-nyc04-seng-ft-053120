@@ -40,9 +40,7 @@ end
       genre_count[genre] = 1
       end
     end
-    #binding.pry
     genre_count
-  end
 end
 
 
