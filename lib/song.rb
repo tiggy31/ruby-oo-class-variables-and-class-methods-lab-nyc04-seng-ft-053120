@@ -31,9 +31,8 @@ def self.genres
 end
 
   def self.genre_count
-    @@genres[@@count]
-    binding.pry
-    puts "hello"
+    @@genre_count= {}
+    
   end
   
 end
