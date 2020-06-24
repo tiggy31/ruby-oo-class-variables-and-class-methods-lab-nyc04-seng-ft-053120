@@ -3,7 +3,7 @@ class Song
   attr_reader :name
   attr_accessor :name,:artist,:genre
   def initialize(name,artist, genre)
-   @@count = 3
+   @@count = 0
   @@genres =["rap", "rap", "pop"]
  @@artists=["Jay-Z", "Brittany Spears"].uniq
   @@genre_count= {}
