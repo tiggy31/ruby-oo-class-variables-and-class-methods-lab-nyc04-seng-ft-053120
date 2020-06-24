@@ -32,7 +32,10 @@ end
 
   def self.genre_count
     @@genre_count= {}
-    @@genres.each |genre| 
+    @@genres.each do |genre|
+      
+      if genre_count[genre]
+    end
     
   
 end
