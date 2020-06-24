@@ -13,7 +13,7 @@ class Song
 end
 
 def self.count
-  @@count +=1 
+  @total+= count
   
 end
 
